@@ -9,12 +9,7 @@
             @founder = founder
             @@all << self
         end 
-        def founder()
-            @founder
-        end
-        def domain()
-            @domain
-        end 
+      
         def pivot(new_domain, name)
             @domain = new_domain
             @name = name
