@@ -1,8 +1,8 @@
 
     class Startup
         @@all= []
-        attr_accessor :name, :domain
-        attr_reader :founder 
+        attr_accessor :name
+        attr_reader :founder ,  :domain
         def initialize(name, domain, founder)
             @name = name
             @domain = domain
