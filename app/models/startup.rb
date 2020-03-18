@@ -15,8 +15,8 @@
         def domain()
             @domain
         end 
-        def pivot(domain, name)
-            @domain = domain
+        def pivot(new_domain, name)
+            @domain = new_domain
             @name = name
         end 
         def self.all
